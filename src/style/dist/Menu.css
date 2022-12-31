@@ -1,0 +1,19 @@
+.Menu {
+  background: #e2d2e9;
+  height: 120px;
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+}
+.Menu .menu_wrap {
+  padding: 12px 0;
+  margin-right: 5%;
+}
+.Menu .menu_wrap a {
+  text-decoration: none;
+  background-color: #5a3968;
+  color: #fff;
+  padding: 12px 24px;
+  margin: 0 4px;
+  border-radius: 8px 8px 0 0;
+}

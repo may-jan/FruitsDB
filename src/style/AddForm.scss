@@ -1,0 +1,51 @@
+.Form {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+
+  h1 {
+    color: rgb(90, 57, 104);
+    padding: 50px 0;
+  }
+
+  form {
+    width: 350px;
+    height: auto;
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(226, 210, 233);
+
+    label {
+      height: 35px;
+      width: 200px;
+      margin: 10px 0px;
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+
+      span {
+        width: 40px;
+        line-height: 35px;
+      }
+
+      input {
+        width: 140px;
+      }
+    }
+
+    button {
+      margin: 20px 0 10px 0;
+      border: none;
+      padding: 10px 30px;
+      background-color: rgb(90, 57, 104);
+      color: #fff;
+      font-size: 1.4rem;
+      cursor: pointer;
+    }
+  }
+}

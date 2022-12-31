@@ -1,0 +1,45 @@
+.Form {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.Form h1 {
+  color: #5a3968;
+  padding: 20px 0;
+}
+.Form form {
+  width: 350px;
+  height: auto;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e2d2e9;
+}
+.Form form label {
+  height: 35px;
+  width: 200px;
+  margin: 10px 0px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.Form form label span {
+  width: 40px;
+  line-height: 35px;
+}
+.Form form label input {
+  width: 140px;
+}
+.Form form button {
+  margin: 20px 0 10px 0;
+  border: none;
+  padding: 10px 30px;
+  background-color: #5a3968;
+  color: #fff;
+  font-size: 1.1rem;
+  cursor: pointer;
+}

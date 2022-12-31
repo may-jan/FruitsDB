@@ -1,0 +1,36 @@
+.List {
+  h1 {
+    text-align: center;
+    color: rgb(97, 26, 97);
+    padding: 50px 0;
+  }
+
+  table {
+    margin: 0 auto;
+    width: 750px;
+    text-align: center;
+    border-collapse: collapse;
+    background-color: rgb(226, 210, 233);
+
+    thead {
+      background-color: rgb(90, 57, 104);
+      color: #fff;
+    }
+
+    tr {
+      height: 40px;
+
+      button {
+        cursor: pointer;
+        border: none;
+        background: none;
+        color: rgb(90, 57, 104);
+        font-weight: bold;
+
+        &:hover {
+          color: red;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.Home {
+  width: 100%;
+  height: calc(100vh - 200px);
+  display: flex;
+
+  .HomeTab_container {
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    > div {
+      width: 46%;
+      height: 150px;
+      position: relative;
+      font-size: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      a {
+        position: absolute;
+        width: 100%;
+        bottom: -40px;
+        padding: 5px 0;
+        border-radius: 4px;
+        color: #fff;
+        background-color: #611a61;
+        font-size: 1.2rem;
+        text-align: right;
+        text-decoration: none;
+      }
+    }
+  }
+}

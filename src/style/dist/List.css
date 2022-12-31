@@ -1,0 +1,30 @@
+.List h1 {
+  text-align: center;
+  color: #611a61;
+  padding: 50px 0;
+}
+.List table {
+  margin: 0 auto;
+  width: 750px;
+  text-align: center;
+  border-collapse: collapse;
+  background-color: #e2d2e9;
+}
+.List table thead {
+  font-weight: bold;
+  background-color: #5a3968;
+  color: #fff;
+}
+.List table tr {
+  height: 40px;
+}
+.List table tr button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: #5a3968;
+  font-weight: bold;
+}
+.List table tr button:hover {
+  color: red;
+}

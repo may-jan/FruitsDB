@@ -1,0 +1,64 @@
+.ListInfo {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.ListInfo h1 {
+  color: #5a3968;
+  padding: 20px 0;
+}
+.ListInfo .listInfo_wrap {
+  width: 350px;
+  height: auto;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e2d2e9;
+}
+.ListInfo .listInfo_wrap label {
+  height: 35px;
+  width: 250px;
+  margin: 10px 0px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.ListInfo .listInfo_wrap label span {
+  width: 90px;
+  line-height: 35px;
+}
+.ListInfo .listInfo_wrap label input {
+  width: 160px;
+}
+.ListInfo .listInfo_wrap button {
+  margin: 20px 10px 10px 10px;
+  border: none;
+  padding: 10px 30px;
+  background-color: #5a3968;
+  color: #fff;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+.ListInfo .back_btn {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: #5a3968;
+  border: none;
+  border-radius: 50px;
+  background-color: #e2d2e9;
+  cursor: pointer;
+}
+.ListInfo .back_btn:hover {
+  color: #e2d2e9;
+  background-color: #5a3968;
+}
