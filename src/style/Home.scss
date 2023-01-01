@@ -1,38 +1,49 @@
 .Home {
-  width: 100%;
-  height: calc(100vh - 200px);
   display: flex;
+  justify-content: center;
+  align-items: center;
 
-  .HomeTab_container {
-    width: 600px;
-    height: auto;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  > div {
+    width: 350px;
+    margin: 0 10px;
+  }
 
-    > div {
-      width: 46%;
-      height: 150px;
-      position: relative;
-      font-size: 1.5rem;
+  .Home_left {
+    height: 250px;
+    position: relative;
+    p {
+      font-size: 1.6rem;
+      color: var(--main-color);
+    }
+
+    .linkTab {
+      position: absolute;
+      bottom: 0;
+      right: 0;
       display: flex;
       flex-direction: column;
-      justify-content: center;
-      align-items: center;
 
       a {
-        position: absolute;
-        width: 100%;
-        bottom: -40px;
-        padding: 5px 0;
-        border-radius: 4px;
-        color: #fff;
-        background-color: #611a61;
-        font-size: 1.2rem;
-        text-align: right;
+        color: var(--main-color);
         text-decoration: none;
+        text-align: center;
+        width: 180px;
+        padding: 15px 0;
+        margin: 5px 0;
+        border-radius: 30px;
+        background-color: #fff;
+        box-shadow: 2px 2px 5px rgba(10, 10, 10, 0.1);
+
+        &:hover {
+          background-color: var(--main-color);
+          color: #fff;
+        }
       }
     }
+  }
+
+  .Home_right {
+    width: 400px;
+    height: 340px;
   }
 }

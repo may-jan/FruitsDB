@@ -1,7 +1,7 @@
 .List {
   h1 {
     text-align: center;
-    color: rgb(97, 26, 97);
+    color: var(--main-color1);
     padding: 50px 0;
   }
 
@@ -10,10 +10,10 @@
     width: 750px;
     text-align: center;
     border-collapse: collapse;
-    background-color: rgb(226, 210, 233);
+    background-color: var(--main-color3);
 
     thead {
-      background-color: rgb(90, 57, 104);
+      background-color: var(--main-color1);
       color: #fff;
     }
 
@@ -24,7 +24,7 @@
         cursor: pointer;
         border: none;
         background: none;
-        color: rgb(90, 57, 104);
+        color: var(--main-color1);
         font-weight: bold;
 
         &:hover {
