@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+<h1>Fruit DB</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p>SeSAC의 React 수업을 바탕으로 개발한 Fruit DB 프로젝트입니다.</p>
+<p>과일의 목록을 나타내고 조회, 추가, 수정, 삭제가 가능한 사이트입니다.</p>
+<p>Firebase의 KEY값을 감추고 배포 시도중입니다. 해결시 바로 업로드 하겠습니다</p>
+<br/>
 
-## Available Scripts
+<div align="center">
+  <img src="src/assets/images/Home.png" alt="Home_img" width="300">
+  <p>Home 페이지 (main)</p>
+  <br/>
+  <img src="src/assets/images/List.png" alt="List_img" width="300">
+  <p>List 페이지</p>
+  <br/>
+  <img src="src/assets/images/ListInfo.png" alt="ListInfo_img" width="300">
+  <p>ListInfo 페이지</p>
+  <br/>
+  <img src="src/assets/images/SweetAlert.png" alt="SweetAlert_img" width="300">
+  <p>수정 삭제 추가시 표현되는 sweetalert2</p>
+  <br/>
+  <img src="src/assets/images/Add.png" alt="Add_img" width="300">
+  <p>Add 페이지</p>
+  <br/>
+  <img src="src/assets/images/firebase.png" alt="Firebase_img" width="300">
+  <p>Firebase 연동</p>
 
-In the project directory, you can run:
+</div>
 
-### `npm start`
+<br/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 기술 스택
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<img src="https://img.shields.io/badge/Javascript-F7DF1E?style=flat-square&logo=Javascript&logoColor=white"/> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/> <img src="https://img.shields.io/badge/Sass-CC6699?style=flat-square&logo=Sass&logoColor=white"/> <img src="https://img.shields.io/badge/Github-181717?style=flat-square&logo=Github&logoColor=white"/>
 
-### `npm test`
+<br/>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 구현 기능
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- react-router-dom을 사용한 페이지 이동 기능
+- Firebase의 데이터를 연동하여 값을 조회, 저장, 수정, 삭제하는 기능
+- useState를 활용하여 input의 값의 변화를 인지하고 저장하거나 변경하여 출력
+- useEffect를 활용하여 무분별한 리렌더링 방지
+- 추가, 수정, 삭제 기능이 작동할 때만 리렌더링
+- sweetAlert
+- SCSS를 통한 스타일링
+  <br/>
