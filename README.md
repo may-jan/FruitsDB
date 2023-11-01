@@ -2,7 +2,7 @@
 
 <p>SeSAC의 React 수업을 바탕으로 개발한 Fruit DB 프로젝트입니다.</p>
 <p>과일의 목록을 나타내고 조회, 추가, 수정, 삭제가 가능한 사이트입니다.</p>
-<p>Firebase의 KEY값을 감추고 배포 시도중입니다. 해결시 바로 업로드 하겠습니다</p>
+<p>🔗 배포 URL : <a href='https://sesac-c1a13.web.app/'> FRUIT DB</a></p>
 <br/>
 <br/>
 
